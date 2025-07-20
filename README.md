@@ -1,19 +1,23 @@
-# Chat-Application
-A lightweight Python chat application that lets two users exchange messages in real-time using their terminal/command prompt.
+Simple Python Chat App
+A minimal command-line chat application that allows two users to exchange messages in real-time using Python sockets.
 
-How to Use This Chat Application
+Features
+🖥️ Server-client model (1 server, multiple clients)
 
-Start the Server:
-Open a terminal and run: python chat_server.py
-The server will start listening on port 5555
+⚡ Real-time messaging
 
-Start First Client:
-Open another terminal and run: python chat_client.py
-You'll see "Connected to chat server" message
+📟 Terminal-based interface
 
-Start Second Client:
-Open a third terminal and run: python chat_client.py
+🐍 Pure Python (no external dependencies)
 
-Chat:
-Type messages in either client terminal and press Enter
-Messages will appear in the other client's terminal
+How to Run
+Start the server: python chat_server.py
+
+Launch clients: python chat_client.py (in separate terminals)
+
+Start chatting!
+
+Tech Stack
+Python socket + threading
+
+Localhost (port 5555)
