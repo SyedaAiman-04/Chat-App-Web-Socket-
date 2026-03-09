@@ -30,9 +30,7 @@ def start_client():
         daemon=True
     )
     receive_thread.start()
-
     print("Connected to chat server. Type your messages (Ctrl+C to quit):")
-    
     try:
         while True:
             message = input()
@@ -47,4 +45,5 @@ def start_client():
         client.close()
 
 if __name__ == "__main__":
+
     start_client()
